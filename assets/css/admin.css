@@ -1,0 +1,21 @@
+/* assets/css/admin.css */
+.bl-search-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.bl-search-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5em;
+  cursor: pointer;
+}
+.bl-search-cover {
+  max-width: 60px;
+  max-height: 90px;
+  margin-right: 0.5em;
+  object-fit: contain;
+}
+.bl-search-info {
+  flex: 1;
+}

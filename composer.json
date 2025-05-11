@@ -1,0 +1,18 @@
+{
+  "name": "francesco/book-library-plugin",
+  "description": "WordPress plugin per gestire la libreria di libri con Amazon PAAPI",
+  "type": "wordpress-plugin",
+  "require": {
+    "flowdee/paapi5-php-sdk": "^1.0"
+  },
+  "config": {
+    "platform": {
+      "php": "7.4.0"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "BookLibrary\\": "includes/"
+    }
+  }
+}
